@@ -1,3 +1,25 @@
+
+# FPL Repo
 /FPL-Core-Insights
 /data
+
+# dbt
+target/
+logs/
+dbt_packages/
+.user.yml
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Python
 .venv/
+__pycache__/
+*.pyc
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
